@@ -1,0 +1,154 @@
+*{
+    margin: 0;padding: 0; background-color: black;
+    clear:both;
+}
+.name{
+    margin-top: 10px;
+    font-family: 'Aladin', cursive;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+}
+hr{
+    width: 400px;
+    height: 2px;
+    color: white;
+    background-color: #fff;
+    margin: auto;
+    display: block;
+}
+.about{
+    padding: 20px;
+    margin: auto;
+}
+p{
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.67em;
+}
+.container{
+    margin: auto;
+    width: 900px;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.img1{
+    margin-top: 80px;
+    padding: 5px;
+    height: 130px;
+    width: 130px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.names{
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.cvborder{
+    margin-top: 20px;
+    border: 2px solid red;
+}
+.graphic{
+    /* margin-top: px; */
+    font-family: 'Allura', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.CV{
+    padding-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.1em;
+    text-align: center;
+    color: white;
+}
+
+.carrier{
+    padding-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+}
+.co{
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: left;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.67em;
+}
+.flex{
+    display: flex;
+    /* border: 2px solid red ; */
+    height: 450px;
+}
+.fdata{
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+    line-height: 3.67em;
+    text-align: left;
+    color: white;
+    /* border: 2px solid green; */
+    width: 300px;
+    /* align-items: center; */
+}
+.info{
+    text-align: left;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .8em;
+    line-height: 1.67em;
+}
+.f2data{
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+    line-height: 3.67em;
+    text-align: left;
+    color: white;
+    /* border: 2px solid green; */
+    width: 508px;
+    /* align-items: center; */
+}
+.heading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    color: white;
+    padding-top: 2px;
+}
+.work{
+    padding-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+}
+.worktag{
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    
+}
+@media screen (max-width : 300px){
+    .container{
+        display: block;
+    }
+    
+}
