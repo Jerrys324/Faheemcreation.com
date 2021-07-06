@@ -79,7 +79,7 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.4em;
     text-align: center;
-    color: #fff;
+    color: #ffc100;
 }
 .co{
     /* border: 1px solid black; */
@@ -102,7 +102,7 @@ p{
     font-size: 1.4em;
     line-height: 3.67em;
     text-align: left;
-     color: #fff;
+     color: #ffc100;
     /* border: 2px solid green; */
     width: 300px;
     /* align-items: center; */
@@ -131,7 +131,7 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
     text-align: left;
-     color: #fff;
+     color: #ffc100;
     padding-top: 2px;
     flex-wrap: wrap;
 }
