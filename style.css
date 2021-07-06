@@ -1,5 +1,5 @@
 *{
-    margin: 0;padding: 0; background-color: black;
+    margin: 0;padding: 0; background-color: #000000;
     clear:both;
 }
 .name{
@@ -7,12 +7,12 @@
     font-family: 'Aladin', cursive;
     font-size: 4em;
     text-align: center;
-    color: white;
+    color: #fff;
 }
 hr{
     width: 400px;
     height: 2px;
-    color: white;
+    color: #fff;
     background-color: #fff;
     margin: auto;
     display: block;
@@ -25,7 +25,7 @@ p{
     /* border: 1px solid black; */
     /* padding: 20px; */
     text-align: center;
-    color: white;
+    color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2em;
     line-height: 1.67em;
@@ -41,7 +41,7 @@ p{
     padding: 5px;
     height: 130px;
     width: 130px;
-    border: 2px solid white;
+    border: 2px solid #fff;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -53,25 +53,25 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2em;
     text-align: center;
-    color: white;
+    color: #fff;
 }
 .cvborder{
     margin-top: 20px;
-    border: 2px solid red;
+    border: 2px solid 	#ff0000;
 }
 .graphic{
     /* margin-top: px; */
     font-family: 'Allura', cursive;
     font-size: 2em;
     text-align: center;
-    color: white;
+     color: #fff;
 }
 .CV{
     padding-top: 40px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.1em;
     text-align: center;
-    color: white;
+     color: #fff;
 }
 
 .carrier{
@@ -79,13 +79,13 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.4em;
     text-align: center;
-    color: white;
+    color: #fff;
 }
 .co{
     /* border: 1px solid black; */
     padding: 10px;
     text-align: left;
-    color: white;
+     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2em;
     line-height: 1.67em;
@@ -93,7 +93,8 @@ p{
 .flex{
     display: flex;
     /* border: 2px solid red ; */
-    height: 450px;
+    height: auto;
+    flex-wrap: wrap;
 }
 .fdata{
     padding: 10px;
@@ -101,17 +102,18 @@ p{
     font-size: 1.4em;
     line-height: 3.67em;
     text-align: left;
-    color: white;
+     color: #fff;
     /* border: 2px solid green; */
     width: 300px;
     /* align-items: center; */
 }
 .info{
     text-align: left;
-    color: white;
+     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     font-size: .8em;
     line-height: 1.67em;
+    flex-wrap: wrap;
 }
 .f2data{
     padding: 10px;
@@ -119,7 +121,8 @@ p{
     font-size: 1.4em;
     line-height: 3.67em;
     text-align: left;
-    color: white;
+     color: #fff;
+    flex-wrap: wrap;
     /* border: 2px solid green; */
     width: 508px;
     /* align-items: center; */
@@ -128,27 +131,37 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
     text-align: left;
-    color: white;
+     color: #fff;
     padding-top: 2px;
+    flex-wrap: wrap;
 }
 .work{
     padding-top: 40px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.4em;
     text-align: center;
-    color: white;
+     color: #fff;
 }
 .worktag{
     padding-top: 10px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2em;
     text-align: center;
-    color: white;
+    color: #fff;
     
 }
-@media screen (max-width : 300px){
-    .container{
+@media screen (max-width: 1180px)
+{
+    body{
         display: block;
     }
-    
+
+}
+
+@media screen (max-width: 600px)
+{
+    body{
+        display: block;
+    }
+
 }
