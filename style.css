@@ -2,6 +2,9 @@
     margin: 0;padding: 0; background-color: #000000;
     clear:both;
 }
+body{
+    background-color: #000000;
+}
 .name{
     margin-top: 10px;
     font-family: 'Aladin', cursive;
