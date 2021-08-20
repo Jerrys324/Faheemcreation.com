@@ -866,9 +866,9 @@ section {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
+  -ms-flex: 14%; /* IE10 */
+  flex: 14%;
+  max-width: 14%;
   padding: 0 4px;
 }
 
